@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+html {height: 100%}
+body {
+	margin: 0;
+	min-height: 100%;
+	background-color: #3399CC;
+	border: 20px solid #2B81AC;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: white;
+
+}
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+.header {font-size: 14px;}
+.footer {font-size: 20px; padding-top: 10px;}
+.list {
+	list-style-type: none;
+	font-size: 0;
+	border: 2px solid #fff;
+	padding: 0;
+	background: #fff;
+}
+.list li {
+	display: inline-block;
+	border:  2px solid #fff;
+	font-size: 19px;
+	padding: 5px;
+	text-align: center;
+}
+.op25 {width: 25%;}
+.op50 {width: 50%;}
+.op100 {width: 100%;}
+#siniy {background-color: #3399CC;}
+#beruza {background-color: #33CCCC;}
+#baklajan {background-color: #996699;}
+#vishnya {background-color: #C24747;}
+#orange {background-color: #E2674A;}
+#lemon {background-color: #FFCC66;}
+#trava {background-color: #99CC99;}
+#more {background-color: #669999;}
+#pink {background-color: #CC6699;}
+#leaf {background-color: #339966;}
+#fiolet {background-color: #666699;}
+.tuhlo {color: rgba(255,255,255,.7);}
+li>p>i {
+	font-size: 22px;
+    vertical-align: bottom;
+}
+.list:hover > li {
+    opacity: .6;
+}
+.list > li:hover {
+    opacity: 1;
+}
